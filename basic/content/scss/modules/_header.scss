@@ -1,5 +1,21 @@
-﻿.header{
-    &-logo{
-        font-size:1rem;
+﻿/// <reference path="../_mixin.scss" />
+
+.header {
+    &-logo {
+        @include rem(font-size, 1.5rem);
+        background: $black;
+        box-sizing: border-box;
+        color: $base;
+        display: block;
+        font-weight: 700;
+        height: 2.5em;
+        padding: .5em;
+        position: relative;
+        text-decoration: none;
+
+        &-icon {
+                color: $bayblue; 
+            margin-right: .5em;
+        }
     }
 }

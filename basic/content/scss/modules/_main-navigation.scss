@@ -1,0 +1,48 @@
+﻿/// <reference path="../_mixin.scss" />
+
+.nav {
+    &-button {
+        background: $base;
+        border: 1px solid #e0e0e0;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 1.2em;
+        padding: .5em;
+        text-align: left;
+        width: 100%;
+
+        &:focus, &:hover {
+            background: $whitegray;
+            color: $orange;
+            outline: none;
+        }
+
+        &-icon {
+            margin-right: .5em;
+
+            .is-selected & {
+                color: $orange;
+            }
+        }
+
+        &-icon-indication {
+            float: right;
+        }
+    }
+
+    &-Sub-list {
+    }
+
+    &-Sub-list-option {
+        display: block;
+        padding: .5em 0 .5em 2.8em;
+        line-height: 1.5;
+        text-decoration: none;
+
+        &:focus, &:hover {
+            color: $orange;
+            background: #eee;
+            outline: none;
+        }
+    }
+}

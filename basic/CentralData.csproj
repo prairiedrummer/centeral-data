@@ -73,6 +73,8 @@
     <Content Include="content\scss\base\_reset.scss" />
     <Content Include="content\scss\base\_layout.scss" />
     <Content Include="content\scss\modules\_header.scss" />
+    <Content Include="content\scss\_mixin.scss" />
+    <Content Include="content\scss\modules\_main-navigation.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

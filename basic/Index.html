@@ -2,15 +2,34 @@
 <head>
     <title>Centeral Data</title>
     <link rel="stylesheet" href="../content/css/style.css" />
+
+    <script src="https://use.fontawesome.com/0a1fef2088.js"></script>
 </head>
 <body data-ng-app="CenteralData">
-    <header class="l-header">
-        <p class="header-logo">Centeral Data</p>
-    </header>
-    <nav class="l-navigation">
-
-    </nav>
+    <header class="l-header"></header>
+    <section class="l-navigation">
+        <a href="/" class="header-logo"><i class="fa fa-database header-logo-icon" aria-hidden="true"></i>Centeral Data</a>
+        <nav>
+            <span></span>
+            <button class="nav-button"><i class="fa fa-pie-chart nav-button-icon" aria-hidden="true"></i>Overview</button>
+            <button class="nav-button" aria-expanded="true">
+                <i class="fa fa-bullhorn nav-button-icon" aria-hidden="true"></i>
+                SEO
+                <i class="fa fa-chevron-down nav-button-icon-indication" aria-hidden="true"></i>
+            </button>
+            <ul aria-hidden="false" class="nav-sub-list">
+                <li><a href="" class="nav-sub-list-option">Bing Webmaster</a></li>
+                <li><a href="" class="nav-sub-list-option">Search Console</a></li>
+            </ul>
+            <button class="nav-button"><i class="fa fa-line-chart nav-button-icon" aria-hidden="true"></i>Data Tracking</button>
+            <button class="nav-button"><i class="fa fa-tachometer nav-button-icon" aria-hidden="true"></i>Speed</button>
+            <button class="nav-button"><i class="fa fa-exclamation-circle nav-button-icon" aria-hidden="true"></i>Code Validation</button>
+            <button class="nav-button"><i class="fa fa-bug nav-button-icon" aria-hidden="true"></i>Website Issues</button>
+            <button class="nav-button"><i class="fa fa-lock nav-button-icon" aria-hidden="true"></i>Security</button>
+        </nav>
+    </section>
     <main class="l-main-content" data-ng-controller="centeralDataController">
+        <h1></h1>
     </main>
 
     <footer class="l-footer"></footer>
