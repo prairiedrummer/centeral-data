@@ -70,6 +70,9 @@
     <Content Include="testing\MIT.LICENSE" />
     <Content Include="content\scss\style.scss" />
     <Content Include="package.json" />
+    <Content Include="content\scss\base\_reset.scss" />
+    <Content Include="content\scss\base\_layout.scss" />
+    <Content Include="content\scss\modules\_header.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -82,8 +85,7 @@
     <Content Include="Index.html" />
     <Content Include="content\js\angular.min.js" />
     <Content Include="content\js\app.js" />
-    <Content Include="content\js\controllers\finder-controller.js" />
-    <Content Include="content\js\jquery-3.1.1.min.js" />
+    <Content Include="content\js\controllers\centeral-data-controller.js" />
     <Content Include="templates\base.html" />
     <Content Include="testing\lib\jasmine-2.5.2\boot.js" />
     <Content Include="testing\lib\jasmine-2.5.2\console.js" />

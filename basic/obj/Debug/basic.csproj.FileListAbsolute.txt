@@ -17,3 +17,23 @@
 \\Profile-vvpm\users\SMunce\Visual Studio 2015\Projects\basic\basic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 \\Profile-vvpm\users\SMunce\Visual Studio 2015\Projects\basic\basic\obj\Debug\basic.dll
 \\Profile-vvpm\users\SMunce\Visual Studio 2015\Projects\basic\basic\obj\Debug\basic.pdb
+C:\Users\smunce\Desktop\GitHub\centeral-data\basic\bin\roslyn\csc.exe
+C:\Users\smunce\Desktop\GitHub\centeral-data\basic\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\smunce\Desktop\GitHub\centeral-data\basic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\smunce\Desktop\GitHub\centeral-data\basic\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\smunce\Desktop\GitHub\centeral-data\basic\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\smunce\Desktop\GitHub\centeral-data\basic\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\smunce\Desktop\GitHub\centeral-data\basic\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\smunce\Desktop\GitHub\centeral-data\basic\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\smunce\Desktop\GitHub\centeral-data\basic\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\smunce\Desktop\GitHub\centeral-data\basic\bin\roslyn\vbc.exe
+C:\Users\smunce\Desktop\GitHub\centeral-data\basic\bin\roslyn\VBCSCompiler.exe
+C:\Users\smunce\Desktop\GitHub\centeral-data\basic\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\smunce\Desktop\GitHub\centeral-data\basic\bin\basic.dll.config
+C:\Users\smunce\Desktop\GitHub\centeral-data\basic\bin\basic.dll
+C:\Users\smunce\Desktop\GitHub\centeral-data\basic\bin\basic.pdb
+C:\Users\smunce\Desktop\GitHub\centeral-data\basic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\smunce\Desktop\GitHub\centeral-data\basic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\smunce\Desktop\GitHub\centeral-data\basic\obj\Debug\basic.dll
+C:\Users\smunce\Desktop\GitHub\centeral-data\basic\obj\Debug\basic.pdb
+C:\Users\smunce\Desktop\GitHub\centeral-data\basic\obj\Debug\basic.csprojResolveAssemblyReference.cache
