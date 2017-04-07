@@ -10,7 +10,8 @@ html body {
 .l {
     &-header {
         background: $darkblue;
-        height: 10em;
+        height: 2.5em;
+        padding: .5em;
 
         &-showen {
             height: 16em;
@@ -25,6 +26,23 @@ html body {
             top: -192px;
             z-index: 1;
             position: fixed;
+        }
+    }
+
+    &-main {
+        background: #fafafa;
+        float: left;
+        height: 100%;
+        padding-bottom: 100px;
+        //transition: padding-left .2s cubic-bezier(.4,0,.2,1);
+        box-sizing: border-box;
+        width: 100%;
+        padding-left: 16em;
+
+        &-container {
+            margin: auto;
+            width: 1160px;
+            padding-top: 80px;
         }
     }
 
@@ -64,5 +82,11 @@ html body {
             transform: translateX(0);
             visibility: visible;
         }*/
+    }
+
+    &-footer {
+        background: $darkblue;
+        height: 2.5em;
+        padding: .5em;
     }
 }

@@ -45,4 +45,13 @@
             outline: none;
         }
     }
+
+    &-feedback {
+        border-top: 1px solid #57554f;
+        bottom: 0;
+        box-sizing: border-box;
+        padding: .5em;
+        position: absolute;
+        width: 100%;
+    }
 }

@@ -4,9 +4,12 @@
     <link rel="stylesheet" href="../content/css/style.css" />
 
     <script src="https://use.fontawesome.com/0a1fef2088.js"></script>
+    <base href="/">
 </head>
-<body data-ng-app="CenteralData">
-    <header class="l-header"></header>
+<body data-ng-app="CenteralData" data-ng-controller="centeralDataController" >
+    <header class="l-header">
+        <i class="header-menu-icon"  title="Show navigation">Navigation</i>
+    <h1 class="header-title">Centeral Date</h1></header>
     <section class="l-navigation">
         <a href="/" class="header-logo"><i class="fa fa-database header-logo-icon" aria-hidden="true"></i>Centeral Data</a>
         <nav>
@@ -18,23 +21,27 @@
                 <i class="fa fa-chevron-down nav-button-icon-indication" aria-hidden="true"></i>
             </button>
             <ul aria-hidden="false" class="nav-sub-list">
-                <li><a href="" class="nav-sub-list-option">Bing Webmaster</a></li>
-                <li><a href="" class="nav-sub-list-option">Search Console</a></li>
+                <li><a href="bing-webmaster" class="nav-sub-list-option">Bing Webmaster</a></li>
+                <li><a href="google-search-concel" class="nav-sub-list-option">Search Console</a></li>
             </ul>
             <button class="nav-button"><i class="fa fa-line-chart nav-button-icon" aria-hidden="true"></i>Data Tracking</button>
             <button class="nav-button"><i class="fa fa-tachometer nav-button-icon" aria-hidden="true"></i>Speed</button>
             <button class="nav-button"><i class="fa fa-exclamation-circle nav-button-icon" aria-hidden="true"></i>Code Validation</button>
             <button class="nav-button"><i class="fa fa-bug nav-button-icon" aria-hidden="true"></i>Website Issues</button>
             <button class="nav-button"><i class="fa fa-lock nav-button-icon" aria-hidden="true"></i>Security</button>
+            <div class="nav-feedback">
+                <a href="" class="nav-sub-list-option">tool feeback</a>
+            
+            </div>
         </nav>
     </section>
-    <main class="l-main-content" data-ng-controller="centeralDataController">
-        <h1></h1>
+    <main class="l-main" data-ng-view >
     </main>
 
     <footer class="l-footer"></footer>
-
+    
     <script type="text/javascript" src="../content/js/angular.min.js"></script>
+    <script type="text/javascript" src="../content/js/angular-route.min.js"></script>
     <script type="text/javascript" src="../content/js/app.js"></script>
     <script type="text/javascript" src="../content/js/controllers/centeral-data-controller.js"></script>
 </body>

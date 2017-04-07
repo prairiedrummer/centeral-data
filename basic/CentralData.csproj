@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\js\angular-route.min.js" />
     <Content Include="packages.config" />
     <Content Include="testing\MIT.LICENSE" />
     <Content Include="content\scss\style.scss" />
@@ -88,17 +89,19 @@
     <Content Include="content\js\angular.min.js" />
     <Content Include="content\js\app.js" />
     <Content Include="content\js\controllers\centeral-data-controller.js" />
-    <Content Include="templates\base.html" />
+    <Content Include="views\google-search-concel.html" />
+    <Content Include="views\bing-webmaster.html" />
+    <Content Include="views\overview.html" />
     <Content Include="testing\lib\jasmine-2.5.2\boot.js" />
     <Content Include="testing\lib\jasmine-2.5.2\console.js" />
     <Content Include="testing\lib\jasmine-2.5.2\jasmine-html.js" />
     <Content Include="testing\lib\jasmine-2.5.2\jasmine.css" />
     <Content Include="testing\lib\jasmine-2.5.2\jasmine.js" />
     <Content Include="testing\lib\jasmine-2.5.2\jasmine_favicon.png" />
-    <Content Include="testing\spec.js" />
+    <Content Include="testing\centeral-data-app-test.js" />
     <Content Include="testing\SpecRunner.html" />
-    <Content Include="testing\spec\PlayerSpec.js" />
-    <Content Include="testing\spec\SpecHelper.js" />
+    <Content Include="testing\controller\PlayerSpec.js" />
+    <Content Include="testing\controller\SpecHelper.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
